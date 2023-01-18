@@ -1,5 +1,6 @@
-# Be Responsive
 
+<img src="https://user-images.githubusercontent.com/102508088/213113107-22b8374e-1189-48bf-a796-f72431184e15.png" style="margin-right: 10px;">
+<h1>Be Responsive</h1>
 As a web developer or designer, it's crucial to ensure that your website looks and functions properly across all devices. With the rise of mobile browsing, it's more important than ever to ensure your website is responsive and adapts to different screen sizes. However, testing your website on multiple devices can take time and effort.
 
 
@@ -7,39 +8,53 @@ Introducing “Be Responsive”, a new chrome extension that can help you to bui
 
 
 
-Advantages:
-Improved responsive design testing: By being able to view both the desktop and mobile versions of a website side by side, developers and designers can easily identify and fix any issues with responsive design, such as elements that are not properly scaling or aligning on mobile devices.
-Improved website functionality testing: quickly and easily test how different features and interactions behave on different devices and identify and fix any issues that may arise.
-Time-saving: view websites on multiple devices without having to physically access them, saving time and effort.
-Easy comparison: easily compare and contrast the different layouts and designs of a website across different devices.
-Convenience: view the website on the current window of chrome, without the need of switching between different devices or opening multiple tabs.
-Real-time testing: view websites in real-time, as they are working on it, making it easier to identify and fix issues as they arise.
+## Advantages: <br/>
+**Improved responsive design testing**: By being able to view both the desktop and mobile versions of a website side by side, developers and designers can easily identify and fix any issues with responsive design, such as elements that are not properly scaling or aligning on mobile devices.  <br/>
+**Improved website functionality testing**: quickly and easily test how different features and interactions behave on different devices and identify and fix any issues that may arise.  <br/>
+**Time-saving**: view websites on multiple devices without having to physically access them, saving time and effort.  <br/>
+**Easy comparison**: easily compare and contrast the different layouts and designs of a website across different devices.  <br/>
+**Convenience**: view the website on the current window of chrome, without the need of switching between different devices or opening multiple tabs.  <br/>
+**Real-time testing**: view websites in real-time, as they are working on it, making it easier to identify and fix issues as they arise.  <br/>
 
 
-Limitation: 
+## Limitation: 
 Be Responsive may have limitations such as not being able to fully emulate the mobile device, not being able to accurately display all web pages, security restrictions, limitations on simultaneous connections, and not being able to display pages with the "X-Frame-Options" header set to "DENY" or "SAMEORIGIN".
 
 
+## Getting Started
+
+### 1. Clone the repository
+`git clone https://github.com/bluetickconsultants/be-responsive.git`
+
+### 2. Install the dependencies
+`npm install`
+
+### 3. Build the extension
+`npm run build` The build process will produce a build folder that can be used inside of Google Chrome.
+
+### 4. Load the extension in Google Chrome
+- Open Google Chrome
+- Go to `chrome://extensions/`
+
+![Screenshot 2023-01-18 130816](https://user-images.githubusercontent.com/102508088/213112458-12b8a9e6-21ad-427c-bc9b-6ad09e2d61b6.png)
+
+- Turn on "Developer mode"
+
+![Screenshot 2023-01-18 130930](https://user-images.githubusercontent.com/102508088/213112539-eb8e57bd-5616-40df-87e0-05aea1269a07.png)
 
 
-### `yarn start`
+- Click on "Load unpacked"
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Screenshot 2023-01-18 131004](https://user-images.githubusercontent.com/102508088/213112564-bf1d74dc-42c0-451e-807b-231c76677620.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+- Select the `build` folder
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Screenshot 2023-01-18 131041](https://user-images.githubusercontent.com/102508088/213112584-998b1b00-7dd8-4ce2-86ba-8ea33b505ee7.png)
 
-### `yarn build`
+-- The extension is loaded
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Screenshot 2023-01-18 131101](https://user-images.githubusercontent.com/102508088/213112670-0124b0b1-f17c-455b-8a2a-d5625ecfc687.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+
 
