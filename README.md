@@ -8,17 +8,13 @@ Introducing “Be Responsive”, a new chrome extension that can help you to bui
 
 
 
-## Advantages: <br/>
+## Advantages <br/>
 **Improved responsive design testing**: By being able to view both the desktop and mobile versions of a website side by side, developers and designers can easily identify and fix any issues with responsive design, such as elements that are not properly scaling or aligning on mobile devices.  <br/>
 **Improved website functionality testing**: quickly and easily test how different features and interactions behave on different devices and identify and fix any issues that may arise.  <br/>
 **Time-saving**: view websites on multiple devices without having to physically access them, saving time and effort.  <br/>
 **Easy comparison**: easily compare and contrast the different layouts and designs of a website across different devices.  <br/>
 **Convenience**: view the website on the current window of chrome, without the need of switching between different devices or opening multiple tabs.  <br/>
 **Real-time testing**: view websites in real-time, as they are working on it, making it easier to identify and fix issues as they arise.  <br/>
-
-
-## Limitation: 
-Be Responsive may have limitations such as not being able to fully emulate the mobile device, not being able to accurately display all web pages, security restrictions, limitations on simultaneous connections, and not being able to display pages with the "X-Frame-Options" header set to "DENY" or "SAMEORIGIN".
 
 
 ## Getting Started
@@ -55,6 +51,14 @@ Be Responsive may have limitations such as not being able to fully emulate the m
 -- The extension is loaded
 
 ![Screenshot 2023-01-18 131101](https://user-images.githubusercontent.com/102508088/213112670-0124b0b1-f17c-455b-8a2a-d5625ecfc687.png)
+
+
+## Limitation
+Be Responsive may have limitations such as not being able to fully emulate the mobile device, not being able to accurately display all web pages, security restrictions, limitations on simultaneous connections, and not being able to display pages with the "X-Frame-Options" header set to "DENY" or "SAMEORIGIN".
+
+
+## Contributing
+If you would like to contribute to the project, please fork the repository and submit a pull request.
 
 
 
