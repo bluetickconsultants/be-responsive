@@ -1,0 +1,25 @@
+{
+  "name": "Be Responsive",
+  "description": "View two different versions of your webpage on the same window, Desktop with varying types of mobile devices, Be Responsive help you to build smooth and responsive sites.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "logo.png",
+    "default_title": "Open the popup"
+  },
+  "icons": {
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "background": {
+    "service_worker": "static/js/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["static/js/content.js"]
+    }
+  ]
+}

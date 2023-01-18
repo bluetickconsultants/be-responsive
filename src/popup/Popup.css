@@ -1,0 +1,24 @@
+ .App {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  padding: 9px;
+  padding-right: 70px;
+  padding-left: 21px;
+  justify-content: space-between;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btnborder {
+  border-bottom: 1px solid gray;
+}
+
+.btn:hover {
+  background-color: lightgray;
+}
+
