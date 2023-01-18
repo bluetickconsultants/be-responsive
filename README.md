@@ -1,10 +1,26 @@
-# Getting Started with Create React App
+# Be Responsive
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+As a web developer or designer, it's crucial to ensure that your website looks and functions properly across all devices. With the rise of mobile browsing, it's more important than ever to ensure your website is responsive and adapts to different screen sizes. However, testing your website on multiple devices can take time and effort.
 
-## Available Scripts
 
-In the project directory, you can run:
+Introducing “Be Responsive”, a new chrome extension that can help you to build your website much faster by showing your current web page with two different layout’s 75% for desktop view and the rest 25% for mobile devices.One of the main advantages of using Be Responsive is that it allows you to easily compare and contrast the different layouts and designs of a website across different devices. 
+
+
+
+Advantages:
+Improved responsive design testing: By being able to view both the desktop and mobile versions of a website side by side, developers and designers can easily identify and fix any issues with responsive design, such as elements that are not properly scaling or aligning on mobile devices.
+Improved website functionality testing: quickly and easily test how different features and interactions behave on different devices and identify and fix any issues that may arise.
+Time-saving: view websites on multiple devices without having to physically access them, saving time and effort.
+Easy comparison: easily compare and contrast the different layouts and designs of a website across different devices.
+Convenience: view the website on the current window of chrome, without the need of switching between different devices or opening multiple tabs.
+Real-time testing: view websites in real-time, as they are working on it, making it easier to identify and fix issues as they arise.
+
+
+Limitation: 
+Be Responsive may have limitations such as not being able to fully emulate the mobile device, not being able to accurately display all web pages, security restrictions, limitations on simultaneous connections, and not being able to display pages with the "X-Frame-Options" header set to "DENY" or "SAMEORIGIN".
+
+
+
 
 ### `yarn start`
 
@@ -27,44 +43,3 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
