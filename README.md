@@ -60,6 +60,11 @@ Be Responsive may have limitations such as not being able to fully emulate the m
 ## Contributing
 If you would like to contribute to the project, please fork the repository and submit a pull request.
 
+## Useful Information
+
+### References
+- [Be Responsive](https://www.bluetickconsultants.com/beresponsive.html)
+
 ## Other Projects
 
 To view all other open source projects visit
